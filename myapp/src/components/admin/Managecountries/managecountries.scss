@@ -1,0 +1,25 @@
+.countries{
+    display: flex;
+
+    .countriescontainer{
+        flex: 6;
+
+        .text-center{
+            .addcountry{
+                text-decoration: none;
+                border: 2px black solid;
+                padding: 7px;
+                color: black;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    transition: 0.7s;
+                }
+
+            }
+        }
+
+       
+    }
+}

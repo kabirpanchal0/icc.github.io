@@ -1,0 +1,31 @@
+.card-description{
+    font-size: 13px;
+    float: right;
+}
+
+.card-text{
+    font-size: 15px;
+}
+.det{
+    margin-top: 20px;
+}
+
+.commoncolleges-link{
+    text-decoration: none;
+
+     &:hover{
+        background: rgba(0, 0, 0, 0.7) ;
+     }
+}
+
+.card:hover{
+    background: green;
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+
+.heading{
+    margin-top: 100px;
+}

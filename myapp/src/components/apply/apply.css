@@ -1,0 +1,28 @@
+.mapimg{
+    height: 200px;
+    width: 100%;
+}
+#applyimg{
+    background-image: url(../image/map.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+#applyimg .backwhite{
+    background-color: white;
+    margin-top: 161px;
+    height: 200px;
+    background: rgba(241, 232, 232, 0.7);
+}
+
+#applyimg  .h1{
+    padding: 40px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.bg{
+    background-color: #ccc;
+}

@@ -1,0 +1,103 @@
+#disc .card {
+    border: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+#disc .card .card-body {
+    background-color: #ccc;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* width: 200px; */
+    height: 180px;
+    border-radius: 0;
+    border: none;
+    /* margin-top: 50px; */
+    
+
+
+}
+
+#disc .card .card-body .disciplinary-icon1 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .card .card-body .disciplinary-icon2 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .card .card-body .disciplinary-icon3 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .card .card-body .disciplinary-icon4 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .card .card-body .disciplinary-icon5 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .card .card-body .disciplinary-icon6 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .card .card-body .disciplinary-icon7 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .card .card-body .disciplinary-icon8 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#disc .Browse {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 92px;
+}
+
+#disc .card .card-body:hover {
+    background-color: #12004f;
+    transition: 0.7s;
+    color: white;
+}
+
+
+#disc .card .card-body h1 {
+    text-decoration: none;
+    /* margin-top: 55px; */
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+#disc .card .disciplinary-title {
+    text-decoration: none;
+    color: black;
+
+
+}
+#disc .see-collages{
+  
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    
+    #disc .Browse {
+        font-size: 29px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+
+}

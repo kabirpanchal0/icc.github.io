@@ -1,0 +1,11 @@
+#australia .card{
+    border: none;
+    
+}
+#australia .country-link{
+    text-decoration: none;
+}
+#australia .card-img-top{
+    width: 100%;
+    height: 400px;
+}

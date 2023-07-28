@@ -1,0 +1,69 @@
+
+#abouthome{
+    background: rgba(0, 0, 0, 0.4) url(../image/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken ;
+    
+}
+
+#abouthome {
+    color: white;
+}
+#abouthome .footer-icons{
+    
+        float: left;
+        background: transparent;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 50%;
+        background-color: white;
+        border: 2px solid white;
+        box-shadow: black;
+      
+    
+}
+#abouthome .footer-icons:hover{
+    
+    float: left;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: black;
+  
+
+}
+#abouthome .facebook{
+    color: blue;
+    font-size: 30px;
+    
+   
+    
+}
+#abouthome .instagram{
+    color: rgba(253, 6, 31, 0.623);
+    font-size: 30px;
+}
+#abouthome .twitter{
+    font-size: 30px;
+    color: rgb(0, 128, 255);
+}
+#abouthome .google{
+    font-size: 30px;
+    color: green;
+}
+
+    

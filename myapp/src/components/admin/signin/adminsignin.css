@@ -1,0 +1,154 @@
+*{
+
+    font-family: 'poppins', sans-serif ;
+}
+.wrapper{
+    background: #ececec;
+    padding: 0 20px 0 20px;
+    
+}
+/* .main{
+    display: flex; 
+     justify-content: center;
+    align-items: center; 
+     min-height:100vh;
+} */
+.side-image{
+
+
+    background-position:  center;
+}
+
+.input-box{
+    width: 200px;
+    box-sizing: border-box;
+}
+.input-box header{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.input-field{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 0 10px;
+
+
+}
+.input{
+    height: 40px;
+    width: 300px;
+    background:transparent;
+    outline: none;
+    margin-bottom: 20px;
+    color: #40414a;
+    font-size: 17px;
+    border-radius: 0;
+
+}
+.input-box .input-field label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+label{
+    letter-spacing: 1.5px;
+}
+
+.input-field .input:focus ~ label{
+    top: -10px;
+    font-size: 13px;
+   
+}
+.input-field .input:valid ~ label{
+    top: -10px;
+    font-size: 13px;
+    color: #5d5076;
+}
+.input-field .input:focus, .input-field .input:valid{
+    border-bottom: 2px solid green ;
+}
+
+/* .btn{
+    align-items: center;
+    justify-content: center;
+}
+.btn .submit{
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    background-color: #c4c4c4;
+    transition: 0.4s; 
+    letter-spacing: 2px;
+    font-size: 16px;
+
+} */
+.for{
+    text-align: right;
+    font-size: 12px;
+
+}
+.forgotpass{
+    text-decoration: none;
+    
+}
+.input-field .submit{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    transition: 0.4s; 
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.input-field .submit:hover{
+    background-color: rgb(6, 82, 6);
+    color: white;
+    cursor: pointer;
+}
+.btn .submit:hover{
+    background-color: rgb(6, 82, 6);
+    color: white;
+    cursor: pointer;
+}
+.sign-in{
+    text-align: center;
+    margin-top: 40px;
+    font-size: small;
+}
+span a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .input-box {
+        width: 267px;
+        box-sizing: border-box;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text{
+        text-align: center;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .input-box {
+        width: 267px;
+        box-sizing: border-box;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+  }

@@ -1,0 +1,42 @@
+.manageuser{
+    display: flex;
+
+    .usercontainer{
+        flex: 6;
+        .table{
+            width: 500px;
+            font-size: 12px;
+        }
+    }
+
+    .edit{
+        background: transparent;
+        padding: 5px 10px;
+        border: 1px green solid;
+        color: green;
+
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+
+  
+}
+
+
+button{
+
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px red solid;
+    color: red;
+    
+    &:hover{
+        background-color: red;
+        color: white;
+       
+    }
+    
+}
